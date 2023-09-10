@@ -1,0 +1,25 @@
+.contact-header {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.734) 0%,
+      rgba(0, 0, 0, 0.733) 40%,
+      rgba(0, 0, 0, 0.715) 100%
+    ),
+    url("../../imgs/contactus.jpg") no-repeat center;
+  @include header;
+}
+
+.header-p {
+  color: $color-white;
+  text-transform: uppercase;
+  font-size: 2rem;
+
+  @media (max-width: 1050px) {
+    text-align: center;
+  }
+}
+
+.header-title {
+  @media (max-width: 1050px) {
+    text-align: center;
+  }
+}
